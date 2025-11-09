@@ -2,7 +2,6 @@ const $form = document.getElementById("form-name");
 const $formSubmitButton = document.querySelector("[type=submit]");
 const $result = document.getElementById("result");
 
-console.log($formSubmitButton);
 async function submit(event) {
     event.preventDefault();
 
